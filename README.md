@@ -10,6 +10,8 @@ export MAESTRO_DRIVER_STARTUP_TIMEOUT=60000
 
 open -a Simulator
 
+xcrun simctl list | grep Boo
+
 <h1 align="center">FlutterWeather</h1>
 <h2 align="center">Updated to Flutter 3.0</h2>
 
