@@ -1,3 +1,15 @@
+xcrun simctl shutdown all
+
+xcrun simctl install Booted Wikipedia.app
+
+maestro start-device --platform ios --os-version 16
+
+git config --global https.proxy http://127.0.0.1:1081
+
+export MAESTRO_DRIVER_STARTUP_TIMEOUT=60000
+
+open -a Simulator
+
 <h1 align="center">FlutterWeather</h1>
 <h2 align="center">Updated to Flutter 3.0</h2>
 
